@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Secular One', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+    background: #0D0D0D;
+}
+
+#clock h2{
+    position: relative;
+    display: block;
+    color: #fff;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8em;
+    font-size: 1.6em;
+
+}
+
+#clock #time{
+    display: flex;
+}
+
+#clock #time div{
+    position: relative;
+    margin: 0 5px;
+    -webkit-box-reflect: below 2px linear-gradient(transparent, #0004);
+}
+
+#clock #time div span{
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 160px;
+    background: #52B5F2;
+    color: #000000;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6em;
+    z-index: 10;
+    box-shadow:  0 0 0 1px rgba(0,0,0,.2);
+} 
+
+#clock #time div span:nth-child(2){
+    height: 60px;
+    font-size: .9em;
+    color: #000;
+    letter-spacing: 0.4em;
+    font-weight: 500;
+    z-index: 9;
+    box-shadow: none;
+    background: #52B5F2;
+    text-transform: uppercase;
+}
+
+#clock #time div:last-child span{
+
+    background: #F2B705;
+
+}
