@@ -1,1 +1,4 @@
-# Horas Minutos Segundos em JavaScript
+# Horas / Minutos / Segundos
+
+![](print.png)
+
